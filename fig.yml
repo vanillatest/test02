@@ -3,6 +3,5 @@ nginx:
   image: test02/nginx
   ports:
   - "8080:80"
-  volumes:
-  - /tmp/convert:/convert
-  - /tmp/convert:/srv/http
+#  volumes:
+#  - src:dst
